@@ -9,16 +9,16 @@ namespace Com.CodeGame.CodeBall2018.DevKit.CSharpCgdk
     {
         public class Vector
         {
-            public int pos_x { get; set; }
-            public int pos_y { get; set; }
-            public int pos_z { get; set; }
+            public double pos_x { get; set; }
+            public double pos_y { get; set; }
+            public double pos_z { get; set; }
 
-            public int x { get; set; }
-            public int y { get; set; }
-            public int z { get; set; }
+            public double x { get; set; }
+            public double y { get; set; }
+            public double z { get; set; }
 
             //направленный вектор без высоты
-            public Vector(int x, int y, int pos_x, int pos_y)
+            public Vector(double x, double y, double pos_x, double pos_y)
             {
                 this.x = x;
                 this.y = y;
@@ -27,7 +27,7 @@ namespace Com.CodeGame.CodeBall2018.DevKit.CSharpCgdk
             }
 
             //направленный вектор с высотой
-            public Vector(int x, int y, int z, int pos_x, int pos_y, int pos_z)
+            public Vector(double x, double y, double z, double pos_x, double pos_y, double pos_z)
             {
                 this.x = x;
                 this.y = y;

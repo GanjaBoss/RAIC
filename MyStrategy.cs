@@ -6,6 +6,7 @@ namespace Com.CodeGame.CodeBall2018.DevKit.CSharpCgdk
     {
         public void Act(Robot me, Rules rules, Game game, Action action)
         {
+            Math.Vector ball = Converter.BallToVector(game.ball);
             //инициализируем анализатор игрового состояния
             GameState gamestate = new GameState(me,  rules,  game, action);
             me.

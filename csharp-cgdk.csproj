@@ -6,6 +6,7 @@
     <UpgradeBackupLocation>C:\Users\Yegor\Desktop\RAIC18\csharp-cgdk\Backup\</UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
     <AssemblyName>csharp-cgdk</AssemblyName>
+    <RootNamespace>Com.CodeGame.CodeBall2018.DevKit.CSharpCgdk</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
