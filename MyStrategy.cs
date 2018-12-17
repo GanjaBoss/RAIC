@@ -8,13 +8,14 @@ namespace Com.CodeGame.CodeBall2018.DevKit.CSharpCgdk
         {
             //инициализируем анализатор игрового состояния
             GameState gamestate = new GameState(me,  rules,  game, action);
+            me.
         }
 
         class Actions
         {
             public void JumpOver(Math.Vector)
             {
-
+                
             }
         }
     }

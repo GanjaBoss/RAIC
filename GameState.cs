@@ -20,5 +20,7 @@ namespace Com.CodeGame.CodeBall2018.DevKit.CSharpCgdk
             _game = game;
             _action = action;
         }
+
+        public void 
     }
 }
